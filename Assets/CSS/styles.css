@@ -1,13 +1,14 @@
+/* Styling Everything, used as a reset for padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Main Body Style */
 body {
     background-color: #d9dcd6;
 }
-
+/* Header Styles including H1, Nav and a elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,10 +44,7 @@ a {
     text-decoration: none;
 }
 
-p figcaption {
-    font-size: 16px;
-}
-
+/* Background Image and Styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,22 +54,74 @@ p figcaption {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Content Class Styling */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Float-left class Styling */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Float-right class Styling */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Figcaption Styling */
+figcaption {
+    font-size: 16px;
+}
+
+/* Information Class Styling */
+.information {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Search-engine-optimization id img styling */
+#search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Online-reputaion-management id img styling */
+#online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Social-media-marketing id img styling */
+#social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Search-engine-optimization id h2 styling */
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Online-reputation-management id h2 styling */
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Social-media-marketing id h2 styling */
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Benefits class styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,90 +133,26 @@ p figcaption {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Benefit-info class styling */
+.benefit-info {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Benefit-info class h3 styling */
+.benefit-info h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Benefit-info class img styling */
+.benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.information {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -174,6 +160,7 @@ p figcaption {
     text-align: center;
 }
 
+/* Footer h2 styling */
 .footer h2 {
     font-size: 20px;
 }
